@@ -1,6 +1,6 @@
 from seguranca import criptografar_senha
 from validacoes import email_valido, escolher_plano, confirmar_pagamento, escolher_clube
-from utils import mostrar_planos
+from utils import mostrar_plano
 from layout import titulo, descricao, input_label, sucesso, erro
 
 usuarios = []
@@ -75,7 +75,7 @@ def cadastro():
     senha = criptografar_senha(input_label("Crie uma senha:"))
 
     descricao("Escolha um plano:")
-    mostrar_planos()
+    mostrar_plano()
     plano = escolher_plano()
 
     descricao("Escolha seu clube:")
