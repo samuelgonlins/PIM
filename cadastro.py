@@ -67,12 +67,12 @@ def cadastro():
     descricao("Crie sua conta preenchendo os dados abaixo.")
 
     while True:
-        email = input_label("Digite seu email:")
+        email = input_label("Digite seu email: ex: matheuskotaki@gmail.com")
         if email_valido(email):
             break
         erro("Email inválido.")
 
-    senha = criptografar_senha(input_label("Crie uma senha:"))
+    senha = criptografar_senha(input_label("Crie uma senha: ex: 12345"))
 
     descricao("Escolha um plano:")
     mostrar_plano()
