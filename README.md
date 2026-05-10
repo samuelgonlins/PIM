@@ -15,6 +15,7 @@ Projeto desenvolvido em Python com o objetivo de gerenciar sócios torcedores de
   * Prata
   * Ouro
   * Social
+
 * Cálculo automático de descontos em ingressos
 * Verificação de pagamento da mensalidade
 * Sistema de administrador para visualização de usuários
@@ -126,6 +127,8 @@ Projeto desenvolvido por:
 * Samuel Gonçalves
 * Richard Willian Anadão de Assis
 * Antonio Henrique totoli da silva
+* Lucas Rodrigo Roque
+* Bruno Henrique do Bem pereira Barbosa
 
 ## 📌 Observação
 
